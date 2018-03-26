@@ -2,6 +2,9 @@ body {
   font-family: 'Pacifico', cursive;
   text-align: center;
 }
+h1 {
+  font-size: 250%;
+}
 
 .collage {
   display: flex;
@@ -12,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   float: left;
-  width: 50%;
+  width: 40%;
 }
 .container {
   position: relative;
@@ -28,7 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   float: left;
-  width: 50%;
+  width: 40%;
 }
 
 .image {
@@ -67,6 +70,23 @@ body {
 
   text-transform: lowercase;
 
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-footer{
+  display: flex;
+  justify-content: center;
+
+}
+
+.flex-footer-icon {
+ display: flex;
+ justify-content: center;
+ float: left;
 }
 
 a {

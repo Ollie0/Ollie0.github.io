@@ -2,6 +2,9 @@ body {
   font-family: 'Pacifico', cursive;
   text-align: center;
 }
+h1 {
+  font-size: 250%;
+}
 
 .collage {
   display: flex;
@@ -16,6 +19,7 @@ body {
 
 .container {
   position: relative;
+  transition: .5s ease;
 }
 
 .image {
@@ -26,7 +30,7 @@ body {
   display: block;
   transition: .5s ease;
   backface-visibility: hidden;
-  
+
 
 }
 
@@ -51,4 +55,28 @@ body {
 
 .container:hover .middle {
   opacity: 1;
+
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-footer{
+  display: flex;
+  justify-content: center;
+
+}
+
+.flex-footer-icon {
+ display: flex;
+ justify-content: center;
+ float: left;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
