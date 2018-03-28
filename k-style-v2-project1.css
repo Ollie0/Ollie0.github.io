@@ -58,13 +58,13 @@ h1 {
   color: black;
 }
 
-.container:hover .image {
+/* .container:hover .image {
   opacity: 0.1;
 }
 
 .container:hover .middle {
   opacity: 1;
-}
+} */
 #story {
   font-family: 'Playfair Display', serif;
 
